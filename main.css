@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+.header p{
+    color:black;
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    padding-left: 5vh;
+}
+.header{
+    min-height: 3vh;
+    background-color:white;
+    box-shadow:  0px 2px 2px rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+}
+.darkmode button {
+    font-family: "Poppins",sans-serif;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    padding: 8px;
+    
+}
+.rightpart{
+    display: flex;
+    align-items: center;
+    padding-right: 5vh;
+}
+.searchtool{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #f5f5f3;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.searchtool input{
+    background-color: transparent;
+    border:none;
+    outline: none;
+}
+::placeholder{
+    color:black;
+    outline: none;
+}
+.add-to-cart{
+    padding: 6.5px;
+    background-color: black;
+    color:white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.banner{
+    background-image: url("https://www.elle.vn/wp-content/uploads/2019/09/05/phoi-do-voi-ankle-boots-mau-trang-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    margin-top: 2px;
+}
+.banner-options ul{
+    list-style-type: none;
+    padding-top: 10vh;
+}
+.banner-options ul li{
+    padding-bottom: 13px;
+}
+.banner-options ul li a{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: 0.3s ease-in;
+}
+.banner-options ul li a:hover{
+    color:black;
+    letter-spacing: 5px;
+}
+.banner-title a{
+    color:white;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+.banner-title a:hover{
+    color:gray;
+}
+.special-products{
+    display: flex;
+    overflow: hidden;
+}
+.special-products img{
+    width: 50%;
+    height: 50%;
+}
+.other-title h3{
+    font-size: 10px;
+    font-weight: 500;
+}
+.other-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.other-products .imgs img{
+    width: 20%;
+    height: 50%;
+}
+.imgs{
+    width: 100%;
+    display: flex;
+}
+.mainsource{
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-bottom: 10vh;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+.footer-right h3{
+    font-size: 14px;
+    font-weight:bold;
+}
+.footer-right ul{
+    list-style-type: none;
+}
+.footer-right ul li a{
+    text-decoration: none;
+    font-size: x-small;
+    font-weight: 500;
+    color:black;
+}
+.footer-title h3{
+    font-size: 14px;
+    font-weight:bold;
+}
+.search{
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.search i{
+    padding: 6.5px;
+    background-color: black;
+    color:white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.footer-left{
+    padding-top: 2px;
+}
+.social-icon i{
+    padding: 6px;
+    font-size: large;
+}
+.social-icon {
+    padding-top: 10px;
+}
+.footer-bottoms ul{
+    display:flex;
+    list-style-type: none;
+}
+.footer-bottoms ul a{
+    text-decoration: none;
+    font-size: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 0.5px solid lightgray;
+    border-left: 0.5px solid lightgray;
+    color:black;
+}
+.footer-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-line a{
+    text-decoration: none;
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+}
+.footer-line .link{
+    border-right: 1px solid black;
+}
+
